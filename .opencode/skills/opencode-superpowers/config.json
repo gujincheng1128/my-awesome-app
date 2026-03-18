@@ -1,0 +1,5 @@
+{
+  "name": "opencode-superpowers",
+  "enabled": true,
+  "commands": ["status", "install", "smart-commit", "help"]
+}
