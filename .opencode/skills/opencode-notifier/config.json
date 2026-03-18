@@ -1,0 +1,5 @@
+{
+  "name": "opencode-notifier",
+  "enabled": true,
+  "commands": ["status", "install", "help"]
+}

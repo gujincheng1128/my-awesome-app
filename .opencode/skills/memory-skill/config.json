@@ -1,0 +1,5 @@
+{
+  "name": "memory-skill",
+  "enabled": true,
+  "commands": ["status", "install", "help"]
+}
