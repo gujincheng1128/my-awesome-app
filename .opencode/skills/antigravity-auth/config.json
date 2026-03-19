@@ -1,0 +1,5 @@
+{
+  "name": "antigravity-auth",
+  "enabled": true,
+  "commands": ["status", "install", "help"]
+}

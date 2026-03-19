@@ -1,0 +1,5 @@
+{
+  "name": "oh-my-opencode",
+  "enabled": true,
+  "commands": ["status", "install", "help"]
+}
