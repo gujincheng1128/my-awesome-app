@@ -1,0 +1,120 @@
+{
+  "jarvis": {
+    "enabled": true,
+    "name": "JARVIS",
+    "version": "1.0.0",
+    "activation_date": "2026-04-04",
+    "status": "active"
+  },
+  "core_capabilities": {
+    "permanent_memory": {
+      "enabled": true,
+      "type": "multi_layer",
+      "layers": ["working", "episodic", "semantic", "procedural"],
+      "auto_save": true,
+      "base_path": "F:\\aimax\\opencode\\opencode\\.cache\\.memory"
+    },
+    "voice_wake": {
+      "enabled": true,
+      "wake_word": "hey jarvis",
+      "language": "zh-CN",
+      "tts": { "enabled": true, "engine": "system" },
+      "stt": { "enabled": true, "engine": "system" }
+    },
+    "jarvis_mode": {
+      "enabled": true,
+      "personality": "helpful-assistant",
+      "proactive": true,
+      "contextual": true
+    },
+    "background_run": {
+      "enabled": true,
+      "daemon": true,
+      "auto_start": true,
+      "heartbeat": 30000
+    },
+    "knowledge_base": {
+      "enabled": true,
+      "base_path": "F:\\aimax\\opencode\\opencode\\.cache\\.knowledge",
+      "auto_index": true,
+      "continuous_learning": true
+    },
+    "history_memory": {
+      "enabled": true,
+      "retention": "permanent",
+      "summarize": true,
+      "index": true
+    },
+    "auto_optimize": {
+      "enabled": true,
+      "feedback_learning": true,
+      "pattern_recognition": true,
+      "style_adaptation": true,
+      "performance_tuning": true
+    }
+  },
+  "agentic_patterns": {
+    "enabled": true,
+    "patterns": {
+      "planning": {
+        "task_decomposition": true,
+        "subgoal_generation": true,
+        "plan_verification": true
+      },
+      "execution": {
+        "tool_use": true,
+        "iterative_execution": true,
+        "error_recovery": true
+      },
+      "reflection": {
+        "result_verification": true,
+        "self_critique": true,
+        "knowledge_integration": true
+      },
+      "collaboration": {
+        "multi_agent_coordination": true,
+        "task_delegation": true,
+        "result_aggregation": true
+      }
+    }
+  },
+  "tdd": {
+    "enabled": true,
+    "workflow": "red_green_refactor",
+    "test_framework": {
+      "javascript": "jest",
+      "typescript": "jest",
+      "python": "pytest"
+    },
+    "coverage_target": 80
+  },
+  "skills": {
+    "base_path": "F:\\aimax\\skill",
+    "cache_path": "F:\\aimax\\opencode\\opencode\\.cache\\skills",
+    "auto_load": true
+  },
+  "pipeline": {
+    "stages": 10,
+    "enabled_stages": [
+      "requirement_analysis",
+      "tech_research",
+      "coding",
+      "code_review",
+      "security_scan",
+      "test_automation",
+      "deployment",
+      "compilation",
+      "monitoring",
+      "iteration"
+    ]
+  },
+  "paths": {
+    "root": "F:\\aimax\\opencode\\opencode\\.cache",
+    "memory": "F:\\aimax\\opencode\\opencode\\.cache\\.memory",
+    "knowledge": "F:\\aimax\\opencode\\opencode\\.cache\\.knowledge",
+    "jarvis": "F:\\aimax\\opencode\\opencode\\.cache\\.jarvis",
+    "agentic": "F:\\aimax\\opencode\\opencode\\.cache\\.agentic",
+    "skills": "F:\\aimax\\skill",
+    "config": "F:\\aimax\\opencode\\opencode\\.cache\\config"
+  }
+}
